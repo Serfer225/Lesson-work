@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 800px;
+}
+.header > h1{
+    text-align: center;
+}
+.header > p{
+    text-align: center;
+}
+.box_job{
+    width: 70%;
+    height: 500px;
+    background-color:burlywood;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box .conteiner_job {
+    width: 250px;
+    height: 100px;
+    background-color:cadetblue;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box_inner a{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 235, 205, 0.37);
+    text-decoration: none;
+    color: rgb(49, 19, 19);
+}
+.box_inner a:hover{
+    background-color: rgb(47, 47, 206);
+    color: wheat;
+}
+input{
+    position: absolute;
+    margin-top: -100px;
+}
+input::before{
+    content: "";
+    width: 50px;
+    margin-top: 10px; ;
+    height: 50px;
+    /* background-color: white; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 95%;
+    top: 0; 
+    border-radius: 100%;
+    background:url(./img/fxVE.gif) ;
+    background-size: cover ;
+    
+}   
+input:checked + .global header{
+    background-color: rgb(12, 12, 12);
+}
+input:checked + .global h1{
+    color: blanchedalmond;
+}
+input:checked + .global p{
+    color: blanchedalmond;
+}
+input:checked + .global .box_job{
+    background: url(./img/IrM.gif) no-repeat;
+    background-size: cover;
+}
+input:checked + .global .conteiner_job{
+    background: url(./img/IZpg.gif);
+    background-size: cover;
+    color: blanchedalmond;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box_job1{
+    width: 70%;
+    height: 500px;
+    background-color:burlywood;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+.box1 .conteiner_job1 {
+    width: 250px;
+    height: 100px;
+    background-color:cadetblue;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.box_inner1 a{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(255, 235, 205, 0.37);
+    text-decoration: none;
+    color: rgb(49, 19, 19);
+}
+.box_inner1 a:hover{
+    background-color: rgb(47, 47, 206);
+    color: wheat;
+}
+input:checked + .global .main{
+    background-color: rgb(12, 12, 12);
+}
+input:checked + .global {
+    background-color: rgb(12, 12, 12);
+}
+input:checked + .global .box_job1{
+    background-color: black;
+}
+input:checked + .global h1{
+    color: blanchedalmond;
+}
+input:checked + .global p{
+    color: blanchedalmond;
+}
+input:checked + .global .box_job1{
+    background: url(./img/IrM.gif) no-repeat;
+    background-size: cover;
+}
+input:checked + .global .conteiner_job1{
+    background: url(./img/IZpg.gif);
+    background-size: cover;
+    color: blanchedalmond;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(https://i.gifer.com/fy5Z.mp4);
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.header_inner{
+    width: 100%;
+    background-color: white ;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 6px 44px 21px rgba(0,0,0,0.5); 
+    box-shadow: 0px 10px 13px -7px #000000, 1px 6px 44px 21px rgba(0,0,0,0.5);
+}
+.top{
+    width: 79%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: white;
+
+}
+.logo_top a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgba(167, 218, 27, 0.836);
+
+}
+.menu_top a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    margin-left: 15px;
+    transition: all 0.5s;
+}
+.menu_top a:hover{
+    border-bottom: 1px solid rgb(226, 80, 43);
+    color: rgb(236, 119, 22);
+    font-size: 21px;
+}
+.text_header{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding: 100px
+}
+.text_header h1{
+    color: black;
+    font-size: 55px;
+}
+.text_header p{
+    color: black;
+    font-size: 25px;
+}
+.text_header span{
+    color: rgba(167, 218, 27, 0.836);
+}
+.header_cnopka{
+    width: 100%;
+    height: 30%;
+    margin-top: 60px;
+}
+.cnopka{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: brown;
+    color: cornsilk;
+}
+.cnopka:hover{
+    background-color: rgba(165, 42, 42, 0.644);
+    color: rgba(255, 248, 220, 0.603);
+}
+.main{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+.main_inner{
+    width: 100%;
+    display: flex;
+    background-color: rgb(226, 234, 235) ;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 6px 44px 21px rgba(0,0,0,0.5); 
+    box-shadow: 0px 10px 13px -7px #000000, 1px 6px 44px 21px rgba(0,0,0,0.5);
+}
+.sidebar{
+    width: 250px;
+    height: 630px;
+    background-color: rgb(131, 130, 134);
+    border-radius: 25px;
+
+}
+.sidebar a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.sidebar div{
+    width: 120px;
+    border-bottom: 2px solid black;
+    text-align: end;
+    margin-top: 30px;
+}
+.content{
+    width: 950px;
+    height: 630px;
+}
+.info{
+    width: 600px;
+    height: 300px;
+    background: url(./img/165312-atmosfera-svet-astronomicheskij_obekt-art-nauka-3840x2160.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 120px 80px;
+    margin-top: 50px;
+}
+.knopka{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: rgb(104, 50, 50);
+    color: cornsilk;
+}
+.knopka:hover{
+    background-color: rgb(167, 175, 45);
+    color: rgba(255, 248, 220, 0.603);
+}
+input{
+    position: absolute;
+    margin-top: -100px;
+}
+input::before{
+    content: "";
+    width: 50px;
+    margin-top: 10px; ;
+    height: 50px;
+    /* background-color: white; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 95%;
+    top: 0; 
+    border-radius: 100%;
+    background:url(./img/fxVE.gif) ;
+    background-size: cover ;
+    
+}
+input:checked + .global{
+    background-color: black;
+}
+input:checked + .global header {
+    background-color: black ;
+}
+input:checked + .global header .top{
+    background:url(./img/Ir9.gif) no-repeat;
+}
+input:checked + .global header .header_inner  {
+    background:url(./img/Ir9.gif) no-repeat;
+    background-size: cover;
+}
+input:checked + .global main {
+    background-color: black;
+}
+input:checked + .global main .main_inner{
+    background: url(./img/Ir9.gif) no-repeat;
+    background-size: cover;
+}
+input:checked + .global main .sidebar{
+    background-color: rgb(19, 17, 17);
+}

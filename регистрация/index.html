@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson14</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>    
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta2-web/css/all.css">
+</head>
+<body>
+    
+    <div class="forma">
+        <h1>Форма регистрации</h1>
+        <form id="contact-form" action="">
+            <input type="hidden" name="contact_number">
+            <div class="info">
+                <div class="user_self">
+                    <i class="fas fa-user-ninja"></i>
+                </div>
+                <div class="user_text">
+                    <p>Чтобы пройти дальше зарегестрируйся</p>
+                    <i class="fas fa-chevron-circle-right"></i>
+                </div>    
+            </div>
+            <div class="info_box">
+                <div class="name">
+                    <input placeholder="username" type="text" name="user_name">
+                </div>
+                <div class="email">
+                    <input  placeholder="useremail" type="email" name="user_email" id="">
+                </div>
+                <div class="password">
+                    <input  placeholder="password" type="password" name="user_password" id="">
+                </div>
+                <div class="tel">
+                    <input placeholder="telphone" type="tel" name="user_phone" id="">
+                </div>
+                <div class="buttom">
+                    <button id="submit" type="submit">Отправить</button>
+                    <button type="reset">Сбросить</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="./mai.js"></script>
+</body>
+</html>
